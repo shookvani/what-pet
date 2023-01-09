@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Pet</title>
+         <style type="text/css" media="screen">
+
+          body, html {
+
+
+            background-color: #000000;
+            font-family: Utopia;
+            font-size: 12pt;
+            text-align: center;
+            color:darkblue;
+            background-image: url('3.jpg');
+            background-repeat: no-repeat;
+  }
+
+
+    </style>
+   
+    </head>
+    <body>
+ 
+        <!-- <form name="test" id="emoji" onsubmit="return translator()"> </form>
+
+
+            <input type="string" name="question1"><br>!-->
+        Select ...<br> your personality
+        <select id="personality">
+          <option value="1">Shy</option>
+          <option value="2">Outgoing</option>
+          <option value="3">Introvert</option>
+            <option value="4">Extrovert</option>
+        </select>   <br>
+        your free time go to
+            <select id="freetime">
+          <option value="1">Netflix</option>
+          <option value="2">Music</option>
+          <option value="3">Go for Walk</option>
+            <option value="4">Be extremly lazy</option>
+        </select>  <br>
+        your readiness for a pet
+            <select id="readiness">
+          <option value="1">ready!</option>
+          <option value="2">not ready!</option>
+          <option value="3">meh</option>
+            <option value="4">idk im taking this for fun</option>
+        </select>  <br>
+        your "dream pet"
+         <select id="whatpet">
+          <option value="1">cat</option>
+          <option value="2">dog</option>
+          <option value="3">fish</option>
+            <option value="4">birds</option>
+        </select>  <br>
+        what do you feel like doing
+         <select id="feellike">
+          <option value="1">running</option>
+          <option value="2">drawing</option>
+          <option value="3">shopping</option>
+            <option value="4">studying</option>
+        </select>  <br>
+         your favorite of the top four celebrities
+         <select id="topfourcelebrity">
+          <option value="1">Harry Styles</option>
+          <option value="2">John Legend</option>
+          <option value="3">Kim Kardashian West</option>
+          <option value="4">Britney Spears</option>
+        </select>  <br>
+          your favorite male kpop celebrity
+         <select id="malekpop">
+          <option value="1">Choi Beomgyu (Beomgyu of Tommorow x Together)</option>
+          <option value="2">Dong Si Cheng (Winwin of NCT, NCT 127, NCT U, WAYV)</option>
+          <option value="3">Jung Ho-seok (J-Hope of BTS)</option>
+          <option value="4">Huang Renjun (Renjun of NCT, NCT DREAM)</option>
+        </select>  <br>
+         your favorite female kpop celebrity
+         <select id="femalekpop">
+          <option value="1">Jeon So Min (Somin of K.A.R.D)</option>
+          <option value="2">Song Yuqi (Yuqi of (G)I-dle)</option>
+          <option value="3">Shin Ryujin (Ryukin of ITZY)</option>
+          <option value="4">Kim Chung-ha (Chungha (formerly) of IOI, now solist)</option>
+        </select>  <br>
+        
+
+            <br><input type="submit" value="submit" onclick="return getNumericValue();"> 
+        <script>
+            function getNumericValue() {
+               var x= document.getElementById("personality");
+                var y = parseInt(x.options[x.selectedIndex].value);
+                 var z= document.getElementById("freetime");
+                var a = parseInt(z.options[z.selectedIndex].value);
+                 var b= document.getElementById("readiness");
+                var c = parseInt(b.options[b.selectedIndex].value);
+                 var d= document.getElementById("whatpet");
+                var e = parseInt(d.options[d.selectedIndex].value);
+                 var f= document.getElementById("feellike");
+                var g = parseInt(f.options[f.selectedIndex].value);
+                 var h= document.getElementById("topfourcelebrity");
+                var k = parseInt(h.options[h.selectedIndex].value);
+                 var m= document.getElementById("malekpop");
+                var n = parseInt(m.options[m.selectedIndex].value);
+                 var p= document.getElementById("femalekpop");
+                var q= parseInt(p.options[p.selectedIndex].value);
+                var sum=y+a+c+e+g+k+n+q;
+                //window.alert(sum);
+                
+                if (sum<=12) {
+                    document.location.href="cat.html";
+                }
+                else if (sum<=17) {
+                    document.location.href="dog.html";
+                }
+                else if (sum<=22) {
+                    document.location.href="rabbit.html";
+                }
+                else if (sum<=27) {
+                    document.location.href="bird.html";
+                }
+                else if (sum<=37) {
+                    document.location.href="fish.html";
+                }
+                //window.alert(sum);
+                return true;
+            }
+        
+        
+        
+        </script>
+
+        
+    </body>
+</html> 
+
+<!--“Free Cat Wallpapers For Desktop - Wallpaper Cave.” Wallpapercave.Com, wallpapercave.com/free-cat-wallpaper-for-desktop. Accessed 10 July 2020.
+
+“ShopHOPEApparel | Marble Macbook, Blue Marble Wallpaper, Marble Desktop Wallpaper.” Pinterest, www.pinterest.com/pin/504192120779971387/. Accessed 10 July 2020.
+
+“Beautiful HD Dog Wallpaper For IPhone Lovers | Dog Wallpaper Iphone, Cute Dog Wallpaper, Dog Wallpaper.” Pinterest, www.pinterest.com/pin/667236501022764165/. Accessed 10 July 2020.
+
+ 
+“Awesome Bird Wallpapers.” WallpaperAccess, wallpaperaccess.com/bird. Accessed 10 July 2020.
+
+“Awesome Bunny Wallpapers.” WallpaperAccess, wallpaperaccess.com/bunny. Accessed 10 July 2020.
+
+“HD Wallpaper: Bubbles Goldfish Blue Bokeh Sea Fish Fishes Underwater Water Gold Desktop | Wallpaper Flare.” Www.Wallpaperflare.Com, www.wallpaperflare.com/bubbles-goldfish-blue-bokeh-sea-fish-fishes-underwater-water-gold-desktop-wallpaper-tyjiy. Accessed 10 July 2020.
